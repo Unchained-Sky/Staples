@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": [
+			"ESNext"
+		],
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"declaration": true,
+		"noLib": false,
+		"sourceMap": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"alwaysStrict": true,
+		"strict": true,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"useUnknownInCatchVariables": true,
+	},
+	"exclude": [
+		"node_modules"
+	]
+}

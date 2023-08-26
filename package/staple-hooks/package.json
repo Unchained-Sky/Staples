@@ -1,0 +1,27 @@
+{
+  "name": "staple-hooks",
+  "version": "0.1.0",
+  "author": "Joel Dohm-Karatjas",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/index.test.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "@types/react": "^18.2.21",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
