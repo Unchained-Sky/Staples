@@ -27,6 +27,15 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
 
+  package/staple-types:
+    devDependencies:
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.5.6
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
 packages:
 
   /@babel/code-frame@7.22.10:

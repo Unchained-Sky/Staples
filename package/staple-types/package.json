@@ -1,11 +1,11 @@
 {
-  "name": "staple-hooks",
+  "name": "staple-types",
   "version": "0.1.0",
   "author": "Joel Dohm-Karatjas",
   "homepage": "https://github.com/Unchained-Sky/Staples#readme",
   "license": "MIT",
-  "main": "lib/staple-hooks.js",
-  "typings": "lib/staple-hooks.d.ts",
+  "main": "lib/staple-types.js",
+  "typings": "lib/staple-types.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/Unchained-Sky/Staples.git"
   },
   "scripts": {
-    "test": "node ./__tests__/staple-hooks.test.js",
+    "test": "node ./__tests__/staple-types.test.js",
     "build": "tsc"
   },
   "bugs": {
@@ -26,11 +26,6 @@
   },
   "devDependencies": {
     "@types/node": "^20.5.6",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
     "typescript": "^5.2.2"
-  },
-  "peerDependencies": {
-    "react": "^18.2.0"
   }
 }
