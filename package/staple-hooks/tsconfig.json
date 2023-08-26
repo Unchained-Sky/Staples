@@ -1,7 +1,11 @@
 {
 	"extends": "../../tsconfig.json",
 	"compilerOptions": {
-		"outDir": "./lib"
+		"outDir": "./lib",
+		"lib": [
+			"DOM",
+			"DOM.Iterable"
+		]
 	},
 	"include": [
 		"./src/**/*.ts"
