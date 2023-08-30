@@ -28,5 +28,6 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0"
-  }
+  },
+  "gitHead": "f80c527640177ab9c0f884c4bb411e5a1e537a74"
 }
